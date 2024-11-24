@@ -1,0 +1,18 @@
+# Exclude development and system files
+.git
+.gitignore
+.env
+.env.*
+node_modules/
+npm-debug.log
+README.md
+.vscode/
+.idea/
+
+# Test files
+**/*.test.js
+**/*.spec.js
+
+# OS generated files
+.DS_Store
+Thumbs.db
